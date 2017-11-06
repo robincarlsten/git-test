@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <link rel="stylesheet" type="text/css" href="../styles/kontakt-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../jquery-3.2.1.min.js"></script>
+
+
+
+
+    <title>kontakt</title>
+</head>
+
+<body>
+
+
+    <header class="menu" role="banner">
+        <button class="menu-button"></button>
+
+        <div class="menu-pages">
+            <nav role="navigation">
+                <ul>
+                    <li> <a href="../index.html" aria-label="Start">Start</a></li>
+                    <li> <a href="./om-oss.html" aria-label="Om oss">Om oss</a></li>
+                    <li> <a href="./verksamheter.html" aria-label="Verksamheter">Verksamhetsområden</a></li>
+                    <li> <a href="./lagar.html" aria-label="Lagar, regler, tillsyn">Lagar, regler, tillsyn</a></li>
+                    <li> <a href="./statistik.html" aria-label="Statistik">Statistik</a></li>
+                    <li> <a href="./publikationer.html" aria-label="Publikationer">Publikationer</a></li>
+                    <li> <a href="./nyhetsrum.html" aria-label="Nyhetsrum">Nyhetsrum</a></li>
+                    <li> <a href="./kontakt.html" aria-label="Kontakt">Kontakt</a></li>
+                    <li> <input type="search" placeholder="Sök" role="navigation">
+                        <input type="submit" value="Sök"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--logo-->
+    <header class="logo" role="banner">
+        <div class="box">
+            <div class="m">
+            </div>
+        </div>
+        <div class="yh">
+            <h2>Yh</h2>
+        </div>
+
+        <div class="title">
+            <p>Myndigheten för <br> yrkeshögskolan</p>
+        </div>
+    </header>
+
+    <!--image -->
+    <img class="huvudbild" src="../images/Kontakt.png" alt="banner för kontaktsida">
+
+    <main role="main">
+        <div class="flexbox">
+            <article class="content" role="article">
+                <h1>Kontakta Oss</h1>
+
+                <h2 class="h2-logo">Här hittar du kontaktuppgifter till oss på Myndigheten för yrkeshögskolan.</h2>
+
+                <section>
+                    <h2 class="h2-logo">Reception</h2>
+                    <p>Receptionen är öppen alla vardagar kl 9.00-15.00 med lunchstängt kl 12.00-13.00.</p>
+                    <p><b>OBS!</b> Begränsade öppettider vecka 25-33, kl. 08.30-11.30.</p>
+
+                    <h2 class="h2-logo">Telefon</h2>
+                    <p>Ring vår växel 010-209 01 00 så hjälper vi dig med ditt ärende!</p>
+                    <p>Växeln är öppen vardagar kl 8.00-17.00.</p>
+
+                    <h2 class="h2-logo">Fax</h2>
+                    <p> Västerås: 021-13 20 16</p>
+                    <p>Hässleholm: 0451-416 80</p>
+
+                    <h2 class="h2-logo">Organisationsnr</h2>
+                    <p>202100-6230</p>
+
+                    <!--formular-->
+                    <form id="form">
+                        <fieldset class="field">
+                            <legend>
+                                <h2 class="h2-logo">Mejla Oss</h2>
+                            </legend>
+                            <p id="formtext">Ditt Namn
+                                <input type="text" name="namn" value="" aria-label="Ange ditt namn"> Din E-mail
+                                <input type="text" name="e-mail" value="" aria-label="Ange ditt telefonnummer"> Ditt Telefonnr
+                                <input type="text" name="telefon" value="" aria-label="Välj din avdelning"> Vilken Avdelning?
+                                <select name=“Avdelning”>
+                <option selected>Välj</option>
+                <option aria-label="Allmänna frågor/Synpunkter">Allmänna frågor/Synpunkter</option>
+                <option aria-label="Registrator">Registrator</option>
+                <option aria-label="Webbfrågor"> Webbfrågor</option>
+                </select> Skriv meddelande
+
+                                <textarea rows="20" cols="100" aria-label="Textruta"></textarea>
+
+                                <button id="formbutton" type="button" aria-label="Skicka inmatad information" onclick="submit" >Skicka</button>
+                            </p>
+                        </fieldset>
+                    </form>
+                </section>
+
+                <section class="container">
+                    <h2 id="fieldrubrik">Här Finns Vi</h2>
+                    <fieldset class="field">
+                        <legend>
+                            <h3>Västerås</h3>
+                        </legend>
+
+                        <p class="fieldtext1"><b>Besöksadress</b><br> Ingenjör Bååths gata 19 <br> 722 12 Västerås </p>
+
+                        <p class="fieldtext1"> <b>Postadress</b> <br> Myndigheten för yrkeshögskolan <br> Frykholmsgatan 10 <br> 281 31 Hässleholm</p>
+
+                    </fieldset>
+
+                    <fieldset class="field">
+                        <legend>
+                            <h3>Hässleholm</h3>
+                        </legend>
+
+                        <p class="fieldtext1"><b>Besöksadress</b><br> Frykholmsgatan 10 <br> 281 31 Hässleholm</p>
+
+                        <p class="fieldtext1"><b>Postadress</b><br> Myndigheten för yrkeshögskolan <br> Box 85 <br> 281 21 Hässleholm</p>
+
+                    </fieldset>
+                </section>
+            </article>
+
+            <aside class="sidebar" role="complementary">
+
+                <section id="sidebarsection">
+
+                    <fieldset class="field" id="sidebarfield">
+                        <legend>
+                            <h3>Viktigt att veta</h3>
+                        </legend>
+
+                        <p class="fieldtext1">
+                            Viktigt att veta innan du kontaktar oss är att Myndigheten för yrkeshögskolan är en statlig myndighet. Det du skickar till
+                            oss via e-post, post eller fax blir därför en allmän handling. Vi registrerar allmänna handlingar
+                            och sparar dem i vårt diarium.
+                            <p><a href="#">Läs förklaring av allmän handling på riksdagens
+                        webbplats.</a></p>
+
+                    </fieldset>
+
+                    <p class="sidebarlink"><a href="#">Hitta utbildningar</a></p>
+                    <p class="sidebarlink"><a href="#">Anmäl brister i en utbildning</a></p>
+                    <p class="sidebarlink"><a href="#">Jobba hos oss</a></p>
+                    <h2 class="h2-logo">Dela</h2>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.myh.se%2fOm-oss%2f"><img src="../images/facebook-black.png" alt="Facebook icon with link"></a>
+                    <a href="https://twitter.com/share?url=http%3a%2f%2fwww.myh.se%2fOm-oss%2f&text=Om+oss"><img src="../images/twitter-black.png" alt="Twitter icon with link"></a>
+                    <a href="#"><img src="../images/email-black.png" alt="E-mail icon with link"></a>
+                </section>
+
+            </aside>
+
+
+        </div>
+    </main>
+    <!--footer-->
+    <footer role="contentinfo">
+        <div class="footerAdress">
+            <h6>Adress</h6>
+            <address>
+                Myndigheten för yrkeshögskolan<br> Box 145 <br> 721 05 Västerås
+            </address>
+        </div>
+
+        <div class="footerTelefon">
+            <h6>Telefon</h6>
+            <p>Ring vår växel:<br>
+            <a href="tel:xxxxxxxxx">010-209 01 00</a></p>
+            <p>Växeln är öppen vardagar:<br> 
+            8.00 - 17.00</p>
+        </div>
+
+        <div class="footerEpost">
+            <h6>E-Post</h6>
+            <p>Allmänna frågor/synpunkter:<br>
+                <a href="mailto:adress@email.com">info@myh.se</a></p> 
+                <p>Registrator:<br>
+                <a href="mailto:adress@email.com">registrator@myh.se</a></p>
+        </div>
+
+        <div class="footerLinks">
+            <h6>Våra övriga webbplatser</h6>
+            <ul>
+                <li><a href="www.yrkeshogskolan.se">www.yrkeshogskolan.se</a></li>
+                <li><a href="www.konstkulturutbildning.se">www.konstkulturutbildning.se</a></li>
+                <li><a href="www.blitolk.nu">www.blitolk.nu</a></li>
+                <li><a href="www.valideringsinfo.se">www.valideringsinfo.se</a></li>
+                <li><a href="www.seqf.se">www.seqf.se</a></li>
+            </ul>
+        </div>
+
+        <div class="footerIcons">
+            <ul>
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.myh.se%2fOm-oss%2f"><img src="../images/facebook-white.png" class="socialimg" alt="Facebook icon with link"></a></li>
+                <li><a href="https://twitter.com/share?url=http%3a%2f%2fwww.myh.se%2fOm-oss%2f&text=Om+oss"><img src="../images/twitter-white.png"  class="socialimg" alt="Twitter icon with link"></a></li>
+                <li><a href="#"><img src="../images/email-white.png" class="socialimg" alt="E-mail icon with link"></a></li>
+            </ul>
+            <p>Ansvarig utgivare:<br>
+            Thomas Persson, generaldirektör MYH.</p>
+            <p id="Madeby">Made with Love #teamepsilon</p>
+        </div>
+
+        
+
+    </footer>
+    <script src="../menu.js"></script>
+</body>
+
+</html>
